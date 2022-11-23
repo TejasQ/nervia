@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.conic-bg {
+  --stripe1: #0f0f0f;
+  --stripe2: #000;
+
+  background-image: radial-gradient(#0000, #0003),
+    conic-gradient(
+      var(--stripe1) 0%,
+      var(--stripe1) 5%,
+      var(--stripe2) 5%,
+      var(--stripe2) 10%,
+      var(--stripe1) 10%,
+      var(--stripe1) 15%,
+      var(--stripe2) 15%,
+      var(--stripe2) 20%,
+      var(--stripe1) 20%,
+      var(--stripe1) 25%,
+      var(--stripe2) 25%,
+      var(--stripe2) 30%,
+      var(--stripe1) 30%,
+      var(--stripe1) 35%,
+      var(--stripe2) 35%,
+      var(--stripe2) 40%,
+      var(--stripe1) 40%,
+      var(--stripe1) 45%,
+      var(--stripe2) 45%,
+      var(--stripe2) 50%,
+      var(--stripe1) 50%,
+      var(--stripe1) 55%,
+      var(--stripe2) 55%,
+      var(--stripe2) 60%,
+      var(--stripe1) 60%,
+      var(--stripe1) 65%,
+      var(--stripe2) 65%,
+      var(--stripe2) 70%,
+      var(--stripe1) 70%,
+      var(--stripe1) 75%,
+      var(--stripe2) 75%,
+      var(--stripe2) 80%,
+      var(--stripe1) 80%,
+      var(--stripe1) 85%,
+      var(--stripe2) 85%,
+      var(--stripe2) 90%,
+      var(--stripe1) 90%,
+      var(--stripe1) 95%,
+      var(--stripe2) 95%,
+      var(--stripe2) 100%
+    );
+  background-size: 100% 100%;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
