@@ -11,6 +11,10 @@ export default function Head() {
       />
       <meta name="theme-color" content="#000000" />
       <meta
+        property="og:title"
+        content="Nervia: Next.js 13-based Trivia Game"
+      />
+      <meta
         property="og:description"
         content="A demo of Next.js 13's app directory and a trivia game. Nervia—The Nerdy Next.js 13 Trivia Game."
       />
