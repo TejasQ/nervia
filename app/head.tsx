@@ -10,6 +10,8 @@ export default function Head() {
         content="black-translucent"
       />
       <meta name="theme-color" content="#000000" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://nervia.tej.as/api/og" />
       <meta
         property="og:title"
         content="Nervia: Next.js 13-based Trivia Game"
